@@ -29,9 +29,10 @@ Partial Class HelloWorldForm
         '
         'PressMeButton
         '
-        Me.PressMeButton.Location = New System.Drawing.Point(100, 57)
+        Me.PressMeButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PressMeButton.Location = New System.Drawing.Point(87, 12)
         Me.PressMeButton.Name = "PressMeButton"
-        Me.PressMeButton.Size = New System.Drawing.Size(75, 23)
+        Me.PressMeButton.Size = New System.Drawing.Size(100, 51)
         Me.PressMeButton.TabIndex = 0
         Me.PressMeButton.Text = "Press Me!"
         Me.PressMeButton.UseVisualStyleBackColor = True
@@ -41,15 +42,16 @@ Partial Class HelloWorldForm
         Me.HelloWorldLabel.AutoSize = True
         Me.HelloWorldLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 28.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HelloWorldLabel.ForeColor = System.Drawing.Color.Red
-        Me.HelloWorldLabel.Location = New System.Drawing.Point(25, 98)
+        Me.HelloWorldLabel.Location = New System.Drawing.Point(22, 77)
         Me.HelloWorldLabel.Name = "HelloWorldLabel"
-        Me.HelloWorldLabel.Size = New System.Drawing.Size(0, 44)
+        Me.HelloWorldLabel.Size = New System.Drawing.Size(238, 44)
         Me.HelloWorldLabel.TabIndex = 1
+        Me.HelloWorldLabel.Text = "Hello World !"
         Me.HelloWorldLabel.Visible = False
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(71, 226)
+        Me.ExitButton.Location = New System.Drawing.Point(74, 210)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(132, 23)
         Me.ExitButton.TabIndex = 2
